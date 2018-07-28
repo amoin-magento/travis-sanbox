@@ -9,5 +9,12 @@ jobs:
       script: python hello1.py
     - script: python hello2.py
     - script: python hello3.py
+    - script: python hello2.py
+    - script: python hello3.py
+    - script: python hello2.py
+    - script: python hello3.py
+    - script: python hello2.py
+    - script: python hello3.py
+    - script: python hello3.py
     - stage: hello2
       script: python hello1.py
