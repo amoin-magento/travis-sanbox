@@ -7,5 +7,9 @@ jobs:
   include:
     - stage: hello1
       script: python hello.py
-    - stage: hello1
+    - stage: hello2
+      script: python hello.py
+    - stage: hello3
+      script: python hello.py
+    - stage: hello4
       script: python hello.py
