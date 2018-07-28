@@ -3,5 +3,9 @@ language: python
 python:
   - "2.7"
 
-script: 
-  - python hello.py
+jobs:
+  include:
+    - stage: hello1
+      script: python hello.py
+    - stage: hello1
+      script: python hello.py
