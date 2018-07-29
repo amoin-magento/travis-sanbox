@@ -7,7 +7,7 @@ while True:
     time.sleep(60) # Delay for 1 minute (60 seconds).
     counter = counter + 1
     
-    if counter == 55:
+    if counter == 48:
         break
 
 print('Out of loop')
