@@ -106,4 +106,3 @@ jobs:
     - script: python hello2.py
     - script: python hello3.py
     - script: python hello3.py
-    - script: python hello2.py
