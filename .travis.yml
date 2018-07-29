@@ -5,7 +5,7 @@ python:
 
 jobs:
   include:
-    - stage: hello1
+    - stage: Unit-Tests
       script: python hello1.py
     - script: python hello2.py
     - script: python hello3.py
@@ -16,5 +16,14 @@ jobs:
     - script: python hello2.py
     - script: python hello3.py
     - script: python hello3.py
-    - stage: hello2
+    - stage: Integration-Tests
       script: python hello1.py
+    - script: python hello2.py
+    - script: python hello3.py
+    - script: python hello2.py
+    - script: python hello3.py
+    - script: python hello2.py
+    - script: python hello3.py
+    - script: python hello2.py
+    - script: python hello3.py
+    - script: python hello3.py
